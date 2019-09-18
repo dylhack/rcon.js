@@ -28,7 +28,7 @@
 
 \+ **new RCONClient**(`details`: [Details](../modules/_rconclient_.md#details)): *[RCONClient](_rconclient_.rconclient.md)*
 
-*Defined in [RCONClient.ts:10](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/RCONClient.ts#L10)*
+*Defined in [RCONClient.ts:10](https://github.com/dylhack/rcon.js/blob/cb4e652/src/RCONClient.ts#L10)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ Name | Type |
 
 • **client**: *Socket*
 
-*Defined in [RCONClient.ts:10](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/RCONClient.ts#L10)*
+*Defined in [RCONClient.ts:10](https://github.com/dylhack/rcon.js/blob/cb4e652/src/RCONClient.ts#L10)*
 
 ## Methods
 
@@ -52,7 +52,7 @@ Name | Type |
 
 ▸ **command**(`cmd`: string): *Promise‹[RCONPacket](../modules/_codec_.md#rconpacket)›*
 
-*Defined in [RCONClient.ts:28](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/RCONClient.ts#L28)*
+*Defined in [RCONClient.ts:28](https://github.com/dylhack/rcon.js/blob/cb4e652/src/RCONClient.ts#L28)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **destroy**(): *void*
 
-*Defined in [RCONClient.ts:40](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/RCONClient.ts#L40)*
+*Defined in [RCONClient.ts:40](https://github.com/dylhack/rcon.js/blob/cb4e652/src/RCONClient.ts#L40)*
 
 **Returns:** *void*
 
@@ -78,7 +78,7 @@ ___
 
 ▸ **login**(`password`: string): *Promise‹[RCONPacket](../modules/_codec_.md#rconpacket)›*
 
-*Defined in [RCONClient.ts:16](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/RCONClient.ts#L16)*
+*Defined in [RCONClient.ts:16](https://github.com/dylhack/rcon.js/blob/cb4e652/src/RCONClient.ts#L16)*
 
 **Parameters:**
 

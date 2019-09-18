@@ -18,7 +18,7 @@
 
 Ƭ **Details**: *object*
 
-*Defined in [RCONClient.ts:4](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/RCONClient.ts#L4)*
+*Defined in [RCONClient.ts:4](https://github.com/dylhack/rcon.js/blob/cb4e652/src/RCONClient.ts#L4)*
 
 #### Type declaration:
 

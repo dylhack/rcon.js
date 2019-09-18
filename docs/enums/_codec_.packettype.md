@@ -17,7 +17,7 @@
 
 • **SERVERDATA_AUTH**: = 3
 
-*Defined in [codec.ts:16](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L16)*
+*Defined in [codec.ts:16](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L16)*
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 • **SERVERDATA_AUTH_RESPONSE**: = 2
 
-*Defined in [codec.ts:15](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L15)*
+*Defined in [codec.ts:15](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L15)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **SERVERDATA_EXECCOMMAND**: = 2
 
-*Defined in [codec.ts:14](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L14)*
+*Defined in [codec.ts:14](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L14)*
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 • **SERVERDATA_RESPONSE_VALUE**: = 0
 
-*Defined in [codec.ts:13](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L13)*
+*Defined in [codec.ts:13](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L13)*

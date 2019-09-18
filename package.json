@@ -2,10 +2,12 @@
   "name": "rcon.js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/src/index.js",
   "scripts": {
     "test": "tsc && jest",
-    "docs": "typedoc --out docs ./src --plugin typedoc-plugin-markdown "
+    "compile": "tsc",
+    "docs": "typedoc --out docs ./src --plugin typedoc-plugin-markdown",
+    "prepublish": "npm run compile && npm run docs"
   },
   "keywords": [],
   "author": "",

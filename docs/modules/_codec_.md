@@ -23,7 +23,7 @@
 
 Ƭ **RCONPacket**: *object*
 
-*Defined in [codec.ts:5](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L5)*
+*Defined in [codec.ts:5](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L5)*
 
 Credit to Speedhaxx for the Node.JS version of
 these functions
@@ -44,7 +44,7 @@ these functions
 
 ▸ **decode**(`data`: Buffer): *[RCONPacket](_codec_.md#rconpacket)*
 
-*Defined in [codec.ts:32](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L32)*
+*Defined in [codec.ts:32](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L32)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **encode**(`type`: [PacketType](../enums/_codec_.packettype.md), `id`: number, `body`: string): *Buffer*
 
-*Defined in [codec.ts:19](https://github.com/dylhack/rcon.js/blob/8d79ba5/src/codec.ts#L19)*
+*Defined in [codec.ts:19](https://github.com/dylhack/rcon.js/blob/cb4e652/src/codec.ts#L19)*
 
 **Parameters:**
 
