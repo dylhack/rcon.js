@@ -1,4 +1,4 @@
-import {decode, encode, PacketType} from "../codec";
+import {decode, encode, PacketType} from "../src/codec";
 
 describe('codec', () => {
     const encoded = encode(PacketType.SERVERDATA_AUTH, 22, 'password');

@@ -1,6 +1,6 @@
-import {RCONClient} from "../RCONClient";
+import {RCONClient} from "../src/RCONClient";
 import {DETAILS, PASSWORD} from "./credentials";
-import {PacketType, RCONPacket} from "../codec";
+import {PacketType, RCONPacket} from "../src/codec";
 
 const client = new RCONClient(DETAILS);
 

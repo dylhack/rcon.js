@@ -11,7 +11,7 @@ const {RCONClient} = require('rcon.js');
 const client = new RCONClient({
     host: '127.0.0.1',
     port: 25575
-})
+});
 
 client.login('password')
     .then(() => {
