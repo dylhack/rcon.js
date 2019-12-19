@@ -89,5 +89,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-/test/credentials.ts
-/lib/test/credentials.js
+/lib/

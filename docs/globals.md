@@ -6,6 +6,5 @@
 
 ### External modules
 
-* ["RCONClient"](modules/_rconclient_.md)
-* ["codec"](modules/_codec_.md)
+* ["Client"](modules/_client_.md)
 * ["index"](modules/_index_.md)

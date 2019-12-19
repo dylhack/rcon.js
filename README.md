@@ -3,18 +3,14 @@ An RCON client for NodeJS developers.
 
 ## Example Usage
 ```javascript
-const {RCONClient} = require('rcon.js');
-const client = new RCONClient({
-    host: '127.0.0.1',
-    port: 25575
-});
-
+const {Client} = require('rcon.js');
+const client = new Client('127.0.0.1', 25575);
 
 client.login('password')
-    .then(() => {
-        client.command('seed')
-            .then((response) => console.log(response.body))
-    })
+    .then(async () => {
+        const response = await client.command('seed');
+        console.log(response.body);
+    });
 ```
 
 ## Further Documentation
