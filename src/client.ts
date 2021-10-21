@@ -98,16 +98,20 @@ export default class Client {
             }
             const size = Buffer.byteLength(respStr);
             const promised = head.size;
-            if (size > promised) {
-              fail(
-                'size of response is greater than promised'
-                + ` (at: ${size}b, promised: ${promised}b) `,
-              );
-            } else if (size < SIZE_ALL) {
-              fail(
-                'size of response is less than the minimum size'
-                + ` of an RCON packet (at: ${size}, min: ${SIZE_ALL} bytes).`,
-              );
+            if (stage === 1) {
+              if (size > promised) {
+                fail(
+                  'size of response is greater than promised'
+                  + ` (at: ${size}b, promised: ${promised}b) `,
+                );
+              }
+            } else if (stage === 2) {
+              if (size < SIZE_ALL) {
+                fail(
+                  'size of response is less than the minimum size of an'
+                  + ` RCON packet (at: ${size}, min: ${SIZE_ALL} bytes).`,
+                );
+              }
             }
           },
           closeAll = () => this.socket.removeAllListeners(),
