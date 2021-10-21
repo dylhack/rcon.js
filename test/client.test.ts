@@ -3,7 +3,7 @@ import Client from '../src/client';
 const
   host = process.env.RCON_HOST ||'127.0.0.1',
   port = process.env.RCON_PORT || '25575',
-  password = process.env.RCON_PASSWORD = 'password';
+  password = process.env.RCON_PASSWORD || 'password';
 let client: null | Client = null;
 
 async function getClient(): Promise<Client> {
