@@ -96,8 +96,9 @@ export default class Client {
             if (stage === 0) {
               return;
             }
-            const size = Buffer.byteLength(respStr);
-            const promised = head.size;
+            const
+              size = Buffer.byteLength(respStr),
+              promised = head.size;
             if (stage === 1) {
               if (size > promised) {
                 fail(
@@ -133,7 +134,7 @@ export default class Client {
             sanityCheck();
           },
           onEnd = () => {
-            stage += 1;
+            stage = 2;
             closeAll();
             sanityCheck();
             const resp = Buffer.from(respStr);
